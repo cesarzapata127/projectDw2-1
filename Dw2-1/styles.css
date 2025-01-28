@@ -1,0 +1,163 @@
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+#indice {
+    background-color: #444444;
+    color: #8e7ad8;
+    padding: 20px;
+   
+}
+
+#indice h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#indice ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+#indice ul li {
+    
+    margin: 20px 0;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#indice ul li img {
+    width: 80px;
+    height: 40px;
+    border-radius: 20%;
+}
+
+#indice ul li:hover {
+    color: #4CAF50;
+    cursor: pointer;
+}
+
+
+#contenido {
+    padding: 20px;
+}
+
+.seccion {
+    background-color: #666464;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.seccion h1, .seccion h2 {
+    text-align: center;
+}
+
+.sub-seccion {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e3e3e3;
+    border-radius: 8px;
+}
+
+.sub-seccion p {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+
+.seccion1 {
+    border: 3px solid #4CAF50;
+    background-color: #e7f8e7;
+}
+
+#seccion2 {
+    background-color: #fff3e0;
+    border-radius: 8px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+
+#indice ul li:hover {
+    background-color: #4CAF50;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.seccion {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sub-seccion {
+    width: 100%;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+.sub-seccion:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+
+#indice ul li:hover {
+    cursor: pointer;
+    background-color: #4CAF50;
+    transition: background-color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    #indice {
+        padding: 10px;
+    }
+
+    .seccion {
+        width: 100%;
+    }
+
+    #indice ul li {
+        font-size: 1rem;
+    }
+}
